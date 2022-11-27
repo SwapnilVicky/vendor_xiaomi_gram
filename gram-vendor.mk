@@ -3362,161 +3362,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gram/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p
 
 PRODUCT_PACKAGES += \
-    libplatformconfig \
     CACertService \
     CneApp \
-    ConnectionSecurityService \
-    FingerprintExtensionService \
-    IFAAService \
     IWlanService \
-    MipayService \
-    SoterService \
     TimeService \
     pasrservice \
+    PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     DeviceInfo \
-    DynamicDDSService \
-    FM \
-    FM_Test \
-    ImsRcsService \
-    NQNfcNci \
-    PerformanceMode \
-    QCC-AUTHMGR \
-    QCC \
-    QColor \
-    QTIDiagServices \
-    QdcmFF \
-    QtiTelephony \
     QtiTelephonyService \
-    WAPPushManager \
-    atfwd \
-    colorservice \
-    com.qualcomm.qti.services.secureui \
-    datastatusnotification \
-    embms \
-    imssettings \
     uceShimService \
-    workloadclassifier \
-    CarrierConfig \
-    EmergencyInfo \
-    GoogleFeedback \
-    GoogleServicesFramework \
-    MiuiSystemUI \
-    QAS_DVC_MSP \
-    Settings \
-    SetupWizard \
-    StorageManager \
-    WallpaperCropper \
     WfdService \
-    com.qualcomm.location \
-    com.qualcomm.qti.services.systemhelper \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    seccamservice \
-    xrcbservice \
-    xrvdservice \
     WfdCommon \
-    tcmclient \
-    com.fingerprints.extension \
-    ActivityExt \
-    audiosphere \
     com.android.hotwordenrollment.common.util \
-    com.nxp.nfc \
     com.qti.dpmframework \
-    com.qti.location.sdk \
-    com.qti.media.secureprocessor \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
     com.qualcomm.qti.imscmservice-V2.2-java \
-    com.qualcomm.qti.uceservice-V2.0-java \
-    com.qualcomm.qti.uceservice-V2.1-java \
-    com.qualcomm.qti.uceservice-V2.2-java \
-    com.qualcomm.qti.uceservice-V2.3-java \
-    com.quicinc.cne.api-V1.0-java \
-    com.quicinc.cne.api-V1.1-java \
-    com.quicinc.cne.constants-V1.0-java \
-    com.quicinc.cne.constants-V2.0-java \
-    com.quicinc.cne.constants-V2.1-java \
-    com.xiaomi.nfc \
     dpmapi \
-    embmslibrary \
-    extphonelib \
-    izat.xt.srv \
     qcrilhook \
-    qmapbridge \
-    qti-telephony-common \
-    qti-telephony-hidl-wrapper \
-    qti-telephony-utils \
-    vendor.qti.data.factory-V1.0-java \
-    vendor.qti.data.factory-V2.0-java \
-    vendor.qti.data.factory-V2.1-java \
-    vendor.qti.data.factory-V2.2-java \
-    vendor.qti.data.factory-V2.3-java \
-    vendor.qti.data.factory-V2.4-java \
-    vendor.qti.data.mwqem-V1.0-java \
-    vendor.qti.data.slm-V1.0-java \
-    vendor.qti.hardware.alarm-V1.0-java \
-    vendor.qti.hardware.capabilityconfigstore-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.api-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.constants-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.server-V1.0-java \
-    vendor.qti.hardware.data.cne.internal.server-V1.1-java \
-    vendor.qti.hardware.data.connection-V1.0-java \
-    vendor.qti.hardware.data.connection-V1.1-java \
-    vendor.qti.hardware.data.dynamicdds-V1.0-java \
-    vendor.qti.hardware.data.dynamicdds-V1.1-java \
-    vendor.qti.hardware.data.flow-V1.0-java \
-    vendor.qti.hardware.data.iwlan-V1.0-java \
-    vendor.qti.hardware.data.iwlan-V1.1-java \
-    vendor.qti.hardware.data.latency-V1.0-java \
-    vendor.qti.hardware.data.lce-V1.0-java \
-    vendor.qti.hardware.data.qmi-V1.0-java \
-    vendor.qti.hardware.dpmservice-V1.0-java \
-    vendor.qti.hardware.fingerprint-V1.0-java \
-    vendor.qti.hardware.mwqemadapter-V1.0-java \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java \
-    vendor.qti.hardware.slmadapter-V1.0-java \
-    vendor.qti.hardware.wigig.netperftuner-V1.0-java \
-    vendor.qti.hardware.wigig.supptunnel-V1.0-java \
-    vendor.qti.ims.callcapability-V1.0-java \
-    vendor.qti.ims.callinfo-V1.0-java \
-    vendor.qti.ims.configservice-V1.0-java \
-    vendor.qti.ims.factory-V1.0-java \
-    vendor.qti.ims.factory-V1.1-java \
-    vendor.qti.ims.factory-V2.0-java \
-    vendor.qti.ims.rcsconfig-V1.0-java \
-    vendor.qti.ims.rcsconfig-V1.1-java \
-    vendor.qti.ims.rcsconfig-V2.0-java \
-    vendor.qti.ims.rcsconfig-V2.1-java \
-    vendor.qti.latency-V2.0-java \
-    vendor.qti.latency-V2.1-java \
-    vendor.qti.voiceprint-V1.0-java \
-    android.hardware.atrace@1.0-service \
-    android.hardware.biometrics.fingerprint@2.1-service \
-    android.hardware.dumpstate@1.1-service.xiaomi \
     android.hardware.gnss@2.1-service-qti \
-    android.hardware.graphics.composer-qti-display \
-    android.hardware.graphics.mapper-impl-qti-display \
-    android.hardware.health@2.1 \
-    android.hardware.lights-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
-    android.hardware.sensors@2.0-multihal \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi@1.0-service \
-    manifest_android.hardware.drm@1.3-service.clearkey \
     manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.xiaomi.hardware.mfidoca \
-    manifest_vendor.xiaomi.hardware.mlipay \
-    manifest_vendor.xiaomi.hardware.mtdservice \
-    manifest_vendor.xiaomi.hardware.tidaservice \
-    manifest_vendor.xiaomi.hardware.vsimapp \
     vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.xiaomi.hardware.micharge@1.0 \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.vibratorfeature.service
+    vendor.xiaomi.hardware.misys@3.0
